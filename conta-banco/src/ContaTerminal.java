@@ -66,7 +66,7 @@ public class ContaTerminal {
         if (conta.length() != 4) 
             throw new AgenciaInvalidaException();
 
-        // Formata a agência no formato XXXX
+        // Formata o número da conta no formato XXXX
         return conta.substring(0, 4);
     }
 
